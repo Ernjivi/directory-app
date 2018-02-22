@@ -1,11 +1,13 @@
 import { NgModule } from '@angular/core';
-import { CommonModule } from '@angular/common';
 import { BrowserAnimationsModule } from "@angular/platform-browser/animations";
+
+import { AngularFireAuthModule } from "angularfire2/auth";
 
 @NgModule({
   imports: [
     CommonModule,
     BrowserAnimationsModule,
+    AngularFireAuthModule,
   ],
   exports: [
     CommonModule,
